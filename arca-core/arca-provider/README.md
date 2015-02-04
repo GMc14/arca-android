@@ -51,7 +51,7 @@ You can override the ```onCreateDatabaseConfiguration()``` method in the Databas
 
 ### DatasetProvider
 
-If you don't want to persist data in a database but still want to take full advantage of all the benefits of using Datasets, you can extend the DatasetProvider class directly. You can create Datasets that store data in a HashMap, to disk, or using any other mechanism you like. Registering these Datasets with the provider is the similar to the example shown above.
+If you don't want to persist data in a database but still want to take full advantage of all the benefits of using Datasets, you can extend the DatasetProvider class directly. You can create Datasets that store data in a HashMap, to disk, or using any other mechanism you like. Registering these Datasets with the provider is similar to the example shown above.
 
 ### Datasets
 
